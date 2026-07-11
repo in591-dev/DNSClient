@@ -6,7 +6,7 @@ real_name_server = '9.9.9.9'  # Research public DNS servers to find a valid DNS 
 
 
 # Create a list of domain names to query - use the same list from the DNS Server
-domainList  = ['example.com.','safebank.com.','google.com.','legitsite.com.','bankofamerica.com.','wellsfargo.com.','chase.com.','citibank.com.','paypal.com.','amazon.com.','ebay.com.','microsoft.com.','apple.com.','facebook.com.','twitter.com.','linkedin.com.','instagram.com.','youtube.com.','reddit.com.']
+domainList  = ['example.com.','safebank.com.','google.com.','legitsite.com.','nyu.edu.']
 
 # Define a function to query the local DNS server for the IP address of a given domain name
 def query_local_dns_server(domain,question_type):
